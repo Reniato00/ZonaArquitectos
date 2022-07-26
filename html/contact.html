@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesfile/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav class="navbarsito">
+                <div class="sidebarMain">
+                    <div class="iconNav" id="main">
+                        <button class="btnIcon"onclick="openNav()">
+                            <img src="/Iconos/more.png" alt="" height="50rem" width="50rem">
+                        </button>
+                    </div>
+                    <div id="mySidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="/index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="projects.html">Projects</a>
+                        
+                    </div>
+                </div>
+                <div class="logo"><img src="/Imagenes/ZONARQUITECTOS PNG.png" alt="" height="150px" width="150px"></div>
+            </nav>   
+        </div>
+
+
+        <div class="divForm">
+            <form action="mailto:example@mail.com" method="post" enctype ="text/plain">
+                <label for="name">Complete Name:</label><br>
+                <input type="text" id="name" name="Name" width="200px"><br>
+                <label for="comments">Comments:</label><br>
+                <input type="text" id="comments" name="Comments" style="height:200px">
+                <input type="submit">
+              </form>
+        </div>
+
+
+        <div class="divSocial">
+            <a href="https://www.instagram.com/zonarquitectos_/" target="_blank"><img src="/Iconos/icons8-instagram-48.png" alt=""></a>
+            <a href="https://www.tiktok.com/@zonarquitectos" target="_blank"><img src="/Iconos/icons8-tik-tok-48.png" alt=""></a>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="/script.js"></script>
